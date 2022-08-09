@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #FFEDD5;
+   
+}
+
+header {
+    text-align: center;
+    padding: 32px 0;
+}
+
+header p {
+    opacity: 80%;
+    color: #000000; 
+    font-family: 'Roboto';
+    font-size: 14px;
+}
+
+header, section {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+
+header h1 {
+    text-transform: uppercase;
+    font-size: 28px;
+    margin-bottom: 4px;
+    font-family: 'Roboto Serif', serif;
+    font-weight: bold;
+    color: #2D2C2A;
+
+}
+
+header h1 span {
+    color: #995000;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 8px 16px;
+    margin-bottom: 24px;
+    font-family: 'Roboto Serif', serif;
+    font-weight: bold;
+    background-color: #FED7AA;
+    color: #2D2C2A;
+}
+
+ul {
+    list-style: none; /*Tira os estilos da lista */
+}
+
+ul li {
+    margin-bottom: 16px;
+    display: flex;
+}
+
+li .details {
+    text-transform: uppercase;
+    font-size: 16px;
+    max-width: 240px;
+    margin-bottom: 8px;
+    text-align:justify;
+    font-family: 'Roboto Serif', serif;
+    font-weight: bold;
+    color: #2D2C2A;
+
+}
+
+.description {
+    font-size: 14px;
+    max-width: 240px;
+    margin: 0 auto;
+    text-align:left;
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+    color: black;
+    opacity: 60%;
+}
+
+.brunch, .drinks {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.price {
+    font-family: 'Roboto Serif', serif;
+    font-size: 16px;
+   
+}
